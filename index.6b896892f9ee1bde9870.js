@@ -2273,7 +2273,7 @@ module.exports = __webpack_require__.p + "logo.png";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "";
+/******/ 		__webpack_require__.p = "https://viktor-kurgashov.github.io/Ratio__module-4/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -2320,4 +2320,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.4bde6555c91ce5002e4d.js.map
+//# sourceMappingURL=index.6b896892f9ee1bde9870.js.map

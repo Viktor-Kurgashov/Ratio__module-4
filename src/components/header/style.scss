@@ -1,0 +1,76 @@
+@import '../../style/extend/section.scss';
+
+.header {
+  --header-height: 65px;
+  height: var(--header-height);
+  width: 100%;
+}
+
+.header__wrapper {
+  background: white;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.header__body {
+  @extend .section;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+}
+
+.header__logo {
+  display: block;
+  min-width: 35px;
+  height: 35px;
+}
+
+
+
+@media (max-width: 767px) {
+  .header__burger {
+    background: url("./assets/burger.svg") no-repeat center;
+    background-size: 22px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .header {
+    --header-height: 100px;
+  }
+
+  .header__logo {
+    min-width: 45px;
+    height: 45px;
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .header__nav {
+    display: flex;
+  }
+
+  .header__nav-link {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+  }
+
+  .header__nav-link--current {
+    font-weight: bold;
+  }
+}

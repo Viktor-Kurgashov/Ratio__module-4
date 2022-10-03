@@ -1,0 +1,58 @@
+@import '../../style/extend/text-overflow.scss';
+
+.author {
+  position: relative;
+  margin: 2em 0 2.5em;
+}
+
+.author__avatar {
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.author__name,
+.author__nick {
+  @extend .text-overflow;
+}
+
+.author__nick {
+  color: darkgrey;
+  margin: 0 0 24px;
+}
+
+
+
+@media (max-width: 767px) {
+  .author {
+    max-width: 360px;
+    padding-top: 16px;
+  }
+
+  .author__name,
+  .author__nick {
+    padding-left: 96px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .author {
+    max-width: 550px;
+    margin: 2.5em 0;
+    padding-left: 150px;
+  }
+
+  .author__avatar {
+    width: 130px;
+    height: 130px;
+  }
+
+  .author__nick {
+    margin: 3px 0 5px;
+  }
+}

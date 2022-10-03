@@ -1,0 +1,30 @@
+@import '../../style/extend/article-info.scss';
+
+.preview {
+  @extend .article-info;
+}
+
+.preview__marker {
+  @extend .article-info__marker;
+}
+
+.preview__header-link,
+.preview__text {
+  flex-basis: 100%;
+}
+
+.preview__tag,
+.preview__author,
+.preview__created-at,
+.preview__read-time {
+  @extend .article-info__text;
+}
+
+.preview__text {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}

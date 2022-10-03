@@ -1,0 +1,33 @@
+@import '../../style/extend/text-overflow.scss';
+
+.pagination {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.pagination__prev-link,
+.pagination__next-link {
+  background: black url("./assets/arrow-left.svg") no-repeat center;
+  background-size: auto 1.5em;
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.pagination__prev-label,
+.pagination__next-label {
+  @extend .text-overflow;
+  flex-basis: calc(50% - 2.5em);
+  flex-grow: 1;
+  padding: 0 0.75em;
+}
+
+.pagination__next-label {
+  text-align: right;
+}
+
+.pagination__next-link {
+  background-image: url("./assets/arrow-right.svg")
+}

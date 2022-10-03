@@ -1,0 +1,19 @@
+.article-info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px 8px;
+}
+
+.article-info__text {
+  font-size: calc(1em - 2px);
+  line-height: 1.6em;
+  color: darkgrey;
+}
+
+.article-info__marker {
+  background: darkgrey;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}

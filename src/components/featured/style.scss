@@ -1,0 +1,56 @@
+@import '../../style/extend/section.scss';
+
+.featured {
+  @extend .section;
+}
+
+
+
+@media (max-width: 767px) {
+  .featured {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    row-gap: 1em;
+  }
+
+  .featured--right {
+    padding-top: 0;
+  }
+
+  .featured__image {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .featured {
+    position: relative;
+    padding: 0 2.5em 10em;
+  }
+
+  .featured--right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+  }
+
+  .featured__image {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .featured__article {
+    background: white;
+    width: min(65%, 520px);
+    padding: 1.5em 2em 2em;
+  }
+}

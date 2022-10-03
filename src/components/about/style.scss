@@ -1,0 +1,53 @@
+@import '../../style/extend/section.scss';
+@import '../../style/extend/article-image.scss';
+
+.about {
+  @extend .section;
+  padding: 1em 0 4em;
+}
+
+.about__image {
+  @extend .article-image;
+}
+
+.about > p {
+  margin-top: 1em;
+}
+
+.about > p:first-of-type {
+  margin-top: 0;
+}
+
+
+
+@media (max-width: 767px) {
+  .about__image {
+    width: 100%;
+    margin: 1.5em 0 2em;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .about {
+    max-width: 960px;
+    padding-top: 0.5em;
+  }
+
+  .about::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .about__header {
+    margin-bottom: 1em;
+  }
+
+  .about__image {
+    float: right;
+    width: 52%;
+    padding: 0.5em 0 1em 1em;
+  }
+}

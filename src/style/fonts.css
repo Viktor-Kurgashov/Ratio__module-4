@@ -1,0 +1,36 @@
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+a, h1, h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}

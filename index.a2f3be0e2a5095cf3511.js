@@ -2520,7 +2520,7 @@ module.exports = __webpack_require__.p + "arrow-right.svg";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "https://viktor-kurgashov.github.io/Ratio__module-4/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -2567,4 +2567,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.adacf7acae3c462fc173.js.map
+//# sourceMappingURL=index.a2f3be0e2a5095cf3511.js.map

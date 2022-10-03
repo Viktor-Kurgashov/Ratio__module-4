@@ -2520,7 +2520,7 @@ module.exports = __webpack_require__.p + "arrow-right.svg";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/Ratio__module-4/";
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -2567,4 +2567,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.06be516a007b0292d7eb.js.map
+//# sourceMappingURL=index.adacf7acae3c462fc173.js.map

@@ -1,13 +1,13 @@
 const listeners = {
   actions: [],
 
-  run: function () {
-    this.actions.forEach(item => item());
+  run: function() {
+    this.actions.forEach(func => func());
     this.actions = [];
   },
 
-  add: function (func) {
-    if (func) this.actions.push(func);
+  add: function(func) {
+    this.actions.push(func);
   },
 
   reset: function() {

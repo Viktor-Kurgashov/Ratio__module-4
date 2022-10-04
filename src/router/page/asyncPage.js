@@ -4,30 +4,37 @@ import cleanup from './cleanup';
 import Loader from '../loader';
 import Error from '../error';
 
+// рендерит страницу из полученных компонентов
 const asyncPage = async (...sections) => {
+  // вызывает функции очистки прошлой страницы
   cleanup.run();
+  // показывает лоадер-модалку
   const loader = Loader();
-  document.body.insertAdjacentHTML('beforeend', loader.markup);
 
   for (let child of sections) {
     child = await child();
 
     if (child) {
       document.body.insertAdjacentHTML('beforeend', child.markup);
-      listeners.add(child?.listeners)
-      cleanup.add(child?.clear);
+      // прослушка событий, добавление картинок, всё что должно выполняться после рендера
+      if (child?.listeners) listeners.add(child.listeners);
+      // снятие прослушки событий и всё что выполняется после удаления компонента
+      if (child?.clear) cleanup.add(child.clear);
     }
     else {
-      const error = Error();
-      document.body.insertAdjacentHTML('beforeend', error.markup)
-      error?.listeners();
+      // модальная плашка ошибки
+      Error();
+      // тут listeners ещё не выполнялись, очищает их
       listeners.reset();
+      // подчищает за уже отрендеренными компонентами
       cleanup.run();
       break;
     }
   }
 
+  // добавляет publicPath и функции роутера на все ссылки
   handleLink();
+  // навешивает накопившиеся прослушки событий, вставляет картинки итд
   listeners.run();
   loader.remove();
 };

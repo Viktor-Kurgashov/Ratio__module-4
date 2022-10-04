@@ -4,7 +4,7 @@ import './style.scss';
 
 const Catalog = async (props = { limit: 1 }) => {
   const data = await loadData(
-    'https://course.7t33n.ru/rest/v1/blog/articles',
+    '/blog/articles',
     json => json
       .slice(0, props.limit)
       .map(item => ({
@@ -18,7 +18,7 @@ const Catalog = async (props = { limit: 1 }) => {
   const items = data.reduce((total, item) => total + `
     <li class="catalog-item">
       <a class="catalog-item__image-link" href="/article/${item.id}">
-        <img src="https://random.imagecdn.app/1200/800" alt="article image">
+        <img class="catalog-item__image" src="https://random.imagecdn.app/1200/800" alt="">
       </a>
       ${Preview(item).markup}
     </li>

@@ -27,25 +27,21 @@ const routes = [
     title: 'Blog',
   },
   {
+    // роут /artilce/:id
     match: p => /\/article\/\d+$/.test(p),
     render: (pathname) => asyncPage(
       Header,
-      () => Article({ pathname }),
+      () => Article(pathname),
     ),
   },
   {
     match: p => p === '/about',
-    render: () => asyncPage(
-      Header,
-      About
-    ),
+    render: () => asyncPage(Header, About),
     title: 'About',
   },
   {
     match: () => true,
-    render: () => asyncPage(
-      Page404,
-    ),
+    render: () => asyncPage(Page404),
     title: 'Page Not Found',
   },
 ];

@@ -8,16 +8,14 @@ import './style.scss';
 
 
 
-const Article = async ({ pathname }) => {
-  const titles = await loadData('https://course.7t33n.ru/rest/v1/blog/articles');
+const Article = async (pathname) => {
+  const titles = await loadData('/blog/articles');
 
   if (!titles) return null;
 
-  const articleId = pathname.match(/article\/(\d+)$/)?.[1];
+  const id = pathname.match(/article\/(\d+)$/)?.[1];
 
-  const url = 'https://course.7t33n.ru/rest/v1/blog/article/' + articleId;
-
-  let article = await loadData(url, data => ({
+  let article = await loadData('/blog/article/' + id, data => ({
     ...data,
     nextTitle: titles.find(item => item.id === data.nextId)?.title,
     prevTitle: titles.find(item => item.id === data.prevId)?.title,
@@ -26,7 +24,6 @@ const Article = async ({ pathname }) => {
   }));
 
   if (!article) return null;
-  // console.log(article);
 
 
 

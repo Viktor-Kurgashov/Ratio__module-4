@@ -1,19 +1,24 @@
 import './style.scss';
 
-const Loader = () => ({
-  markup: `
-    <div class="loader">
-      <div class="lds-spinner">
-        <div></div><div></div><div></div><div></div>
-        <div></div><div></div><div></div><div></div>
-        <div></div><div></div><div></div><div></div>
-      </div>
-    </div>
-  `,
+const Loader = () => {
+  const elem = document.createElement('div');
+  elem.classList.add('loader');
 
-  remove: () => {
-    document.querySelector('.loader').remove();
-  },
-});
+  elem.insertAdjacentHTML('beforeend', `
+    <div class="lds-spinner">
+      <div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div>
+    </div>
+  `);
+  document.body.append(elem);
+
+  return {
+    elem,
+    remove: function() {
+      this.elem.remove();
+    },
+  }
+};
 
 export default Loader;

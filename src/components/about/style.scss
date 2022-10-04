@@ -8,6 +8,8 @@
 
 .about__image {
   @extend .article-image;
+  width: 100%;
+  margin: 1.5em 0 2em;
 }
 
 .about > p {
@@ -16,15 +18,6 @@
 
 .about > p:first-of-type {
   margin-top: 0;
-}
-
-
-
-@media (max-width: 767px) {
-  .about__image {
-    width: 100%;
-    margin: 1.5em 0 2em;
-  }
 }
 
 
@@ -47,7 +40,7 @@
 
   .about__image {
     float: right;
-    width: 52%;
-    padding: 0.5em 0 1em 1em;
+    width: 50%;
+    margin: 0.5em 0 0.5em 1em;
   }
 }

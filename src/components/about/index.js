@@ -3,7 +3,7 @@ import './style.scss';
 
 const About = async () => {
   const data = await loadData(
-    'https://course.7t33n.ru/rest/v1/about',
+    '/about',
     json => ({
       ...json,
       content: json.content
@@ -14,7 +14,6 @@ const About = async () => {
   );
 
   if (!data) return null;
-  // console.warn(data.content);
 
   return {
     markup: `

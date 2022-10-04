@@ -1,4 +1,5 @@
 @import '../../style/extend/modal.scss';
+@import '../../style/extend/default-link.scss';
 
 .error {
   @extend .modal;
@@ -8,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1em 5%;
   row-gap: 1em;
 }
 
@@ -16,7 +18,6 @@
   line-height: 1.5em;
 }
 
-.error__refresh-btn {
-  color: dodgerblue;
-  text-decoration: underline;
+.error__link {
+  @extend .default-link;
 }

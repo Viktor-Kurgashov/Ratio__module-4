@@ -1,3 +1,5 @@
+// возвращает дату формата 'December 2, 2019'
+
 const months = [
   'January', 'February', 'March',
   'April', 'May', 'Juny',

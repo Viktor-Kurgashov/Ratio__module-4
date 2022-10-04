@@ -4,7 +4,7 @@ import './style.scss';
 
 const Featured = async (props = { right: false }) => {
   const data = await loadData(
-    'https://course.7t33n.ru/rest/v1/blog/featured',
+    '/blog/featured',
     json => ({
       ...json,
       title: json.title.slice(17),

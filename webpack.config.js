@@ -38,8 +38,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Index Page',
+      title: 'index',
       filename: 'index.html',
+      template: 'src/index.html',
+      favicon: 'src/favicon.ico',
+    }),
+    new HtmlWebpackPlugin({
+      title: '404',
+      filename: '404.html',
       template: 'src/index.html',
       favicon: 'src/favicon.ico',
     }),

@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".section, .about {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .about {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .about {\n    max-width: 1200px;\n  }\n}\n.article-image, .about__image {\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.about {\n  padding: 1em 0 4em;\n}\n\n.about__image {\n  width: 100%;\n  margin: 1.5em 0 2em;\n}\n\n.about > p {\n  margin-top: 1em;\n}\n\n.about > p:first-of-type {\n  margin-top: 0;\n}\n\n@media (min-width: 768px) {\n  .about {\n    max-width: 960px;\n    padding-top: 0.5em;\n  }\n\n  .about::after {\n    content: \"\";\n    clear: both;\n    display: table;\n  }\n\n  .about__header {\n    margin-bottom: 1em;\n  }\n\n  .about__image {\n    float: right;\n    width: 50%;\n    margin: 0.5em 0 0.5em 1em;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/about/style.scss","webpack://./src/style/extend/article-image.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,iBAAA;EACA,iBAAA;ADiBF;;AAhBA;EAEE,kBAAA;AAkBF;;AAfA;EAEE,WAAA;EACA,mBAAA;AAiBF;;AAdA;EACE,eAAA;AAiBF;;AAdA;EACE,aAAA;AAiBF;;AAZA;EACE;IACE,gBAAA;IACA,kBAAA;EAeF;;EAZA;IACE,WAAA;IACA,WAAA;IACA,cAAA;EAeF;;EAZA;IACE,kBAAA;EAeF;;EAZA;IACE,YAAA;IACA,UAAA;IACA,yBAAA;EAeF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n\r\n.about {\r\n  @extend .section;\r\n  padding: 1em 0 4em;\r\n}\r\n\r\n.about__image {\r\n  @extend .article-image;\r\n  width: 100%;\r\n  margin: 1.5em 0 2em;\r\n}\r\n\r\n.about > p {\r\n  margin-top: 1em;\r\n}\r\n\r\n.about > p:first-of-type {\r\n  margin-top: 0;\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .about {\r\n    max-width: 960px;\r\n    padding-top: 0.5em;\r\n  }\r\n\r\n  .about::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\r\n  }\r\n\r\n  .about__header {\r\n    margin-bottom: 1em;\r\n  }\r\n\r\n  .about__image {\r\n    float: right;\r\n    width: 50%;\r\n    margin: 0.5em 0 0.5em 1em;\r\n  }\r\n}",".article-image {\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".section, .about {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .about {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .about {\n    max-width: 1200px;\n  }\n}\n.article-image, .about__image {\n  width: 100%;\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.about {\n  padding: 1em 0 4em;\n}\n\n.about__image {\n  margin: 1.5em 0 2em;\n}\n\n.about > p {\n  margin-top: 1em;\n}\n\n.about > p:first-of-type {\n  margin-top: 0;\n}\n\n@media (min-width: 768px) {\n  .about {\n    max-width: 960px;\n    padding-top: 0.5em;\n  }\n\n  .about::after {\n    content: \"\";\n    clear: both;\n    display: table;\n  }\n\n  .about__header {\n    margin-bottom: 1em;\n  }\n\n  .about__image {\n    float: right;\n    width: 50%;\n    margin: 0.5em 0 0.5em 1em;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/about/style.scss","webpack://./src/style/extend/article-image.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,WAAA;EACA,iBAAA;EACA,iBAAA;ADiBF;;AAjBA;EAEE,kBAAA;AAmBF;;AAhBA;EAEE,mBAAA;AAkBF;;AAfA;EACE,eAAA;AAkBF;;AAfA;EACE,aAAA;AAkBF;;AAbA;EACE;IACE,gBAAA;IACA,kBAAA;EAgBF;;EAbA;IACE,WAAA;IACA,WAAA;IACA,cAAA;EAgBF;;EAbA;IACE,kBAAA;EAgBF;;EAbA;IACE,YAAA;IACA,UAAA;IACA,yBAAA;EAgBF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n\r\n.about {\r\n  @extend .section;\r\n  padding: 1em 0 4em;\r\n}\r\n\r\n.about__image {\r\n  @extend .article-image;\r\n  margin: 1.5em 0 2em;\r\n}\r\n\r\n.about > p {\r\n  margin-top: 1em;\r\n}\r\n\r\n.about > p:first-of-type {\r\n  margin-top: 0;\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .about {\r\n    max-width: 960px;\r\n    padding-top: 0.5em;\r\n  }\r\n\r\n  .about::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\r\n  }\r\n\r\n  .about__header {\r\n    margin-bottom: 1em;\r\n  }\r\n\r\n  .about__image {\r\n    float: right;\r\n    width: 50%;\r\n    margin: 0.5em 0 0.5em 1em;\r\n  }\r\n}",".article-image {\r\n  width: 100%;\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -47,7 +47,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".section, .article {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .article {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .article {\n    max-width: 1200px;\n  }\n}\n.article-image, .article__image {\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.article-info, .article__info {\n  display: flex;\n  flex-flow: row wrap;\n  align-items: center;\n  gap: 4px 8px;\n}\n\n.article-info__text, .article__info {\n  font-size: calc(1em - 2px);\n  line-height: 1.6em;\n  color: darkgrey;\n}\n\n.article-info__marker, .article__marker {\n  background: darkgrey;\n  border-radius: 50%;\n  width: 5px;\n  height: 5px;\n}\n\n.article {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding-top: 1em;\n}\n\n.article__image {\n  width: 100%;\n  margin-bottom: 1.5em;\n}\n\n.article__info {\n  justify-content: center;\n  max-width: 480px;\n  margin: 1em 0;\n}\n\n.article__text {\n  display: flex;\n  flex-direction: column;\n  row-gap: 1em;\n}\n\n@media (min-width: 768px) {\n  .article {\n    padding-top: 0;\n  }\n\n  .article__info > p:last-child {\n    flex-basis: 100%;\n    text-align: center;\n  }\n\n  .article__image,\n.article__header,\n.article__text {\n    max-width: 960px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/article/style.scss","webpack://./src/style/extend/article-image.scss","webpack://./src/style/extend/article-info.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,iBAAA;EACA,iBAAA;ADiBF;;AEnBA;EACE,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,YAAA;AFsBF;;AEnBA;EACE,0BAAA;EACA,kBAAA;EACA,eAAA;AFsBF;;AEnBA;EACE,oBAAA;EACA,kBAAA;EACA,UAAA;EACA,WAAA;AFsBF;;AAnCA;EAEE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;AAqCF;;AAlCA;EAEE,WAAA;EACA,oBAAA;AAoCF;;AAjCA;EAGE,uBAAA;EACA,gBAAA;EACA,aAAA;AAkCF;;AA3BA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;AA8BF;;AAzBA;EACE;IACE,cAAA;EA4BF;;EAzBA;IACE,gBAAA;IACA,kBAAA;EA4BF;;EAzBA;;;IAGE,gBAAA;EA4BF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n@import '../../style/extend/article-info.scss';\r\n\r\n.article {\r\n  @extend .section;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding-top: 1em;\r\n}\r\n\r\n.article__image {\r\n  @extend .article-image;\r\n  width: 100%;\r\n  margin-bottom: 1.5em;\r\n}\r\n\r\n.article__info {\r\n  @extend .article-info;\r\n  @extend .article-info__text;\r\n  justify-content: center;\r\n  max-width: 480px;\r\n  margin: 1em 0;\r\n}\r\n\r\n.article__marker {\r\n  @extend .article-info__marker;\r\n}\r\n\r\n.article__text {\r\n  display: flex;\r\n  flex-direction: column;\r\n  row-gap: 1em;\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .article {\r\n    padding-top: 0;\r\n  }\r\n\r\n  .article__info > p:last-child {\r\n    flex-basis: 100%;\r\n    text-align: center;\r\n  }\r\n\r\n  .article__image,\r\n  .article__header,\r\n  .article__text {\r\n    max-width: 960px;\r\n  }\r\n}",".article-image {\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}",".article-info {\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  align-items: center;\r\n  gap: 4px 8px;\r\n}\r\n\r\n.article-info__text {\r\n  font-size: calc(1em - 2px);\r\n  line-height: 1.6em;\r\n  color: darkgrey;\r\n}\r\n\r\n.article-info__marker {\r\n  background: darkgrey;\r\n  border-radius: 50%;\r\n  width: 5px;\r\n  height: 5px;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".section, .article {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .article {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .article {\n    max-width: 1200px;\n  }\n}\n.article-image, .article__image {\n  width: 100%;\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.article-info, .article__info {\n  display: flex;\n  flex-flow: row wrap;\n  align-items: center;\n  gap: 4px 8px;\n}\n\n.article-info__text, .article__info {\n  font-size: calc(1em - 2px);\n  line-height: 1.6em;\n  color: darkgrey;\n}\n\n.article-info__marker, .article__marker {\n  background: darkgrey;\n  border-radius: 50%;\n  width: 5px;\n  height: 5px;\n}\n\n.article {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding-top: 1em;\n}\n\n.article__image {\n  margin-bottom: 1.5em;\n}\n\n.article__info {\n  justify-content: center;\n  max-width: 480px;\n  margin: 1em 0;\n}\n\n.article__text {\n  display: flex;\n  flex-direction: column;\n  row-gap: 1em;\n}\n\n@media (min-width: 768px) {\n  .article {\n    padding-top: 0;\n  }\n\n  .article__info > p:last-child {\n    flex-basis: 100%;\n    text-align: center;\n  }\n\n  .article__image,\n.article__header,\n.article__text {\n    max-width: 960px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/article/style.scss","webpack://./src/style/extend/article-image.scss","webpack://./src/style/extend/article-info.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,WAAA;EACA,iBAAA;EACA,iBAAA;ADiBF;;AEpBA;EACE,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,YAAA;AFuBF;;AEpBA;EACE,0BAAA;EACA,kBAAA;EACA,eAAA;AFuBF;;AEpBA;EACE,oBAAA;EACA,kBAAA;EACA,UAAA;EACA,WAAA;AFuBF;;AApCA;EAEE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;AAsCF;;AAnCA;EAEE,oBAAA;AAqCF;;AAlCA;EAGE,uBAAA;EACA,gBAAA;EACA,aAAA;AAmCF;;AA5BA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;AA+BF;;AA1BA;EACE;IACE,cAAA;EA6BF;;EA1BA;IACE,gBAAA;IACA,kBAAA;EA6BF;;EA1BA;;;IAGE,gBAAA;EA6BF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n@import '../../style/extend/article-info.scss';\r\n\r\n.article {\r\n  @extend .section;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding-top: 1em;\r\n}\r\n\r\n.article__image {\r\n  @extend .article-image;\r\n  margin-bottom: 1.5em;\r\n}\r\n\r\n.article__info {\r\n  @extend .article-info;\r\n  @extend .article-info__text;\r\n  justify-content: center;\r\n  max-width: 480px;\r\n  margin: 1em 0;\r\n}\r\n\r\n.article__marker {\r\n  @extend .article-info__marker;\r\n}\r\n\r\n.article__text {\r\n  display: flex;\r\n  flex-direction: column;\r\n  row-gap: 1em;\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .article {\r\n    padding-top: 0;\r\n  }\r\n\r\n  .article__info > p:last-child {\r\n    flex-basis: 100%;\r\n    text-align: center;\r\n  }\r\n\r\n  .article__image,\r\n  .article__header,\r\n  .article__text {\r\n    max-width: 960px;\r\n  }\r\n}",".article-image {\r\n  width: 100%;\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}",".article-info {\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  align-items: center;\r\n  gap: 4px 8px;\r\n}\r\n\r\n.article-info__text {\r\n  font-size: calc(1em - 2px);\r\n  line-height: 1.6em;\r\n  color: darkgrey;\r\n}\r\n\r\n.article-info__marker {\r\n  background: darkgrey;\r\n  border-radius: 50%;\r\n  width: 5px;\r\n  height: 5px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -99,7 +99,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".section, .catalog {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .catalog {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .catalog {\n    max-width: 1200px;\n  }\n}\n.article-image, .catalog-item__image {\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.catalog {\n  --catalog-row-gap: 2em;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: var(--catalog-row-gap) 0 4em;\n}\n\n.catalog__separator {\n  background: black;\n  border-radius: 2px;\n  width: 8em;\n  height: 0.25em;\n  margin-top: 0.5em;\n}\n\n.catalog__list {\n  display: flex;\n  flex-direction: column;\n  row-gap: var(--catalog-row-gap);\n  margin-top: var(--catalog-row-gap);\n}\n\n.catalog-item__image {\n  width: 100%;\n}\n\n@media (max-width: 767px) {\n  .catalog-item {\n    display: flex;\n    flex-direction: column;\n    row-gap: 1em;\n  }\n}\n@media (min-width: 768px) {\n  .catalog {\n    --catalog-row-gap: 3em;\n    max-width: 960px;\n  }\n\n  .catalog__separator {\n    width: 10em;\n  }\n\n  .catalog-item {\n    display: flex;\n    align-items: flex-start;\n    column-gap: 24px;\n  }\n\n  .catalog-item__image-link {\n    min-width: 300px;\n    flex-basis: 35%;\n    flex-shrink: 0;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/catalog/style.scss","webpack://./src/style/extend/article-image.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,iBAAA;EACA,iBAAA;ADiBF;;AAhBA;EACE,sBAAA;EAEA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,qCAAA;AAkBF;;AAfA;EACE,iBAAA;EACA,kBAAA;EACA,UAAA;EACA,cAAA;EACA,iBAAA;AAkBF;;AAfA;EACE,aAAA;EACA,sBAAA;EACA,+BAAA;EACA,kCAAA;AAkBF;;AAfA;EAEE,WAAA;AAiBF;;AAZA;EACE;IACE,aAAA;IACA,sBAAA;IACA,YAAA;EAeF;AACF;AAVA;EACE;IACE,sBAAA;IACA,gBAAA;EAYF;;EATA;IACE,WAAA;EAYF;;EATA;IACE,aAAA;IACA,uBAAA;IACA,gBAAA;EAYF;;EATA;IACE,gBAAA;IACA,eAAA;IACA,cAAA;EAYF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n\r\n.catalog {\r\n  --catalog-row-gap: 2em;\r\n  @extend .section;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding: var(--catalog-row-gap) 0 4em;\r\n}\r\n\r\n.catalog__separator {\r\n  background: black;\r\n  border-radius: 2px;\r\n  width: 8em;\r\n  height: 0.25em;\r\n  margin-top: 0.5em;\r\n}\r\n\r\n.catalog__list {\r\n  display: flex;\r\n  flex-direction: column;\r\n  row-gap: var(--catalog-row-gap);\r\n  margin-top: var(--catalog-row-gap);\r\n}\r\n\r\n.catalog-item__image {\r\n  @extend .article-image;\r\n  width: 100%;\r\n}\r\n\r\n\r\n\r\n@media (max-width: 767px) {\r\n  .catalog-item {\r\n    display: flex;\r\n    flex-direction: column;\r\n    row-gap: 1em;\r\n  }\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .catalog {\r\n    --catalog-row-gap: 3em;\r\n    max-width: 960px;\r\n  }\r\n\r\n  .catalog__separator {\r\n    width: 10em;\r\n  }\r\n\r\n  .catalog-item {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    column-gap: 24px;\r\n  }\r\n\r\n  .catalog-item__image-link {\r\n    min-width: 300px;\r\n    flex-basis: 35%;\r\n    flex-shrink: 0;\r\n  }\r\n}",".article-image {\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".section, .catalog {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .catalog {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .catalog {\n    max-width: 1200px;\n  }\n}\n.article-image, .catalog-item__image {\n  width: 100%;\n  aspect-ratio: 3/2;\n  object-fit: cover;\n}\n\n.catalog {\n  --catalog-row-gap: 2em;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: var(--catalog-row-gap) 0 4em;\n}\n\n.catalog__separator {\n  background: black;\n  border-radius: 2px;\n  width: 8em;\n  height: 0.25em;\n  margin-top: 0.5em;\n}\n\n.catalog__list {\n  display: flex;\n  flex-direction: column;\n  row-gap: var(--catalog-row-gap);\n  margin-top: var(--catalog-row-gap);\n}\n\n@media (max-width: 767px) {\n  .catalog-item {\n    display: flex;\n    flex-direction: column;\n    row-gap: 1em;\n  }\n}\n@media (min-width: 768px) {\n  .catalog {\n    --catalog-row-gap: 3em;\n    max-width: 960px;\n  }\n\n  .catalog__separator {\n    width: 10em;\n  }\n\n  .catalog-item {\n    display: flex;\n    align-items: flex-start;\n    column-gap: 24px;\n  }\n\n  .catalog-item__image-link {\n    min-width: 300px;\n    flex-basis: 35%;\n    flex-shrink: 0;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/catalog/style.scss","webpack://./src/style/extend/article-image.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;ACfA;EACE,WAAA;EACA,iBAAA;EACA,iBAAA;ADiBF;;AAjBA;EACE,sBAAA;EAEA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,qCAAA;AAmBF;;AAhBA;EACE,iBAAA;EACA,kBAAA;EACA,UAAA;EACA,cAAA;EACA,iBAAA;AAmBF;;AAhBA;EACE,aAAA;EACA,sBAAA;EACA,+BAAA;EACA,kCAAA;AAmBF;;AAVA;EACE;IACE,aAAA;IACA,sBAAA;IACA,YAAA;EAaF;AACF;AARA;EACE;IACE,sBAAA;IACA,gBAAA;EAUF;;EAPA;IACE,WAAA;EAUF;;EAPA;IACE,aAAA;IACA,uBAAA;IACA,gBAAA;EAUF;;EAPA;IACE,gBAAA;IACA,eAAA;IACA,cAAA;EAUF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n@import '../../style/extend/article-image.scss';\r\n\r\n.catalog {\r\n  --catalog-row-gap: 2em;\r\n  @extend .section;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding: var(--catalog-row-gap) 0 4em;\r\n}\r\n\r\n.catalog__separator {\r\n  background: black;\r\n  border-radius: 2px;\r\n  width: 8em;\r\n  height: 0.25em;\r\n  margin-top: 0.5em;\r\n}\r\n\r\n.catalog__list {\r\n  display: flex;\r\n  flex-direction: column;\r\n  row-gap: var(--catalog-row-gap);\r\n  margin-top: var(--catalog-row-gap);\r\n}\r\n\r\n.catalog-item__image {\r\n  @extend .article-image;\r\n}\r\n\r\n\r\n\r\n@media (max-width: 767px) {\r\n  .catalog-item {\r\n    display: flex;\r\n    flex-direction: column;\r\n    row-gap: 1em;\r\n  }\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .catalog {\r\n    --catalog-row-gap: 3em;\r\n    max-width: 960px;\r\n  }\r\n\r\n  .catalog__separator {\r\n    width: 10em;\r\n  }\r\n\r\n  .catalog-item {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    column-gap: 24px;\r\n  }\r\n\r\n  .catalog-item__image-link {\r\n    min-width: 300px;\r\n    flex-basis: 35%;\r\n    flex-shrink: 0;\r\n  }\r\n}",".article-image {\r\n  width: 100%;\r\n  aspect-ratio: 3/2;\r\n  object-fit: cover;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -125,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".section, .featured {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .featured {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .featured {\n    max-width: 1200px;\n  }\n}\n@media (max-width: 767px) {\n  .featured {\n    display: flex;\n    flex-direction: column;\n    padding-top: 1em;\n    row-gap: 1em;\n  }\n\n  .featured--right {\n    padding-top: 0;\n  }\n\n  .featured__image {\n    aspect-ratio: 3/2;\n    object-fit: cover;\n  }\n}\n@media (min-width: 768px) {\n  .featured {\n    position: relative;\n    padding: 0 2.5em 10em;\n  }\n\n  .featured--right {\n    display: flex;\n    justify-content: flex-end;\n    margin-top: 1em;\n  }\n\n  .featured__image {\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n\n  .featured__article {\n    background: white;\n    width: min(65%, 520px);\n    padding: 1.5em 2em 2em;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/featured/style.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;AAPA;EACE;IACE,aAAA;IACA,sBAAA;IACA,gBAAA;IACA,YAAA;EASF;;EANA;IACE,cAAA;EASF;;EANA;IACE,iBAAA;IACA,iBAAA;EASF;AACF;AAJA;EACE;IACE,kBAAA;IACA,qBAAA;EAMF;;EAHA;IACE,aAAA;IACA,yBAAA;IACA,eAAA;EAMF;;EAHA;IACE,kBAAA;IACA,WAAA;IACA,OAAA;IACA,MAAA;IACA,WAAA;IACA,YAAA;IACA,iBAAA;EAMF;;EAHA;IACE,iBAAA;IACA,sBAAA;IACA,sBAAA;EAMF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n\r\n.featured {\r\n  @extend .section;\r\n}\r\n\r\n\r\n\r\n@media (max-width: 767px) {\r\n  .featured {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding-top: 1em;\r\n    row-gap: 1em;\r\n  }\r\n\r\n  .featured--right {\r\n    padding-top: 0;\r\n  }\r\n\r\n  .featured__image {\r\n    aspect-ratio: 3/2;\r\n    object-fit: cover;\r\n  }\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .featured {\r\n    position: relative;\r\n    padding: 0 2.5em 10em;\r\n  }\r\n\r\n  .featured--right {\r\n    display: flex;\r\n    justify-content: flex-end;\r\n    margin-top: 1em;\r\n  }\r\n\r\n  .featured__image {\r\n    position: absolute;\r\n    z-index: -1;\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n  }\r\n\r\n  .featured__article {\r\n    background: white;\r\n    width: min(65%, 520px);\r\n    padding: 1.5em 2em 2em;\r\n  }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".section, .featured {\n  width: 90%;\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .section, .featured {\n    max-width: 960px;\n  }\n}\n@media (min-width: 1024px) {\n  .section, .featured {\n    max-width: 1200px;\n  }\n}\n@media (max-width: 767px) {\n  .featured {\n    display: flex;\n    flex-direction: column;\n    padding-top: 1em;\n    row-gap: 1em;\n  }\n\n  .featured--right {\n    padding: 0 0 4em;\n  }\n\n  .featured__image {\n    aspect-ratio: 3/2;\n    object-fit: cover;\n  }\n}\n@media (min-width: 768px) {\n  .featured {\n    position: relative;\n    padding: 0 2.5em 10em;\n  }\n\n  .featured--right {\n    display: flex;\n    justify-content: flex-end;\n    margin-top: 1em;\n  }\n\n  .featured__image {\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n\n  .featured__article {\n    background: white;\n    width: min(65%, 520px);\n    padding: 1.5em 2em 2em;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/extend/section.scss","webpack://./src/components/featured/style.scss"],"names":[],"mappings":"AAAA;EACE,UAAA;EACA,gBAAA;EACA,cAAA;ACCF;;ADEA;EACE;IACE,gBAAA;ECCF;AACF;ADEA;EACE;IACE,iBAAA;ECAF;AACF;AAPA;EACE;IACE,aAAA;IACA,sBAAA;IACA,gBAAA;IACA,YAAA;EASF;;EANA;IACE,gBAAA;EASF;;EANA;IACE,iBAAA;IACA,iBAAA;EASF;AACF;AAJA;EACE;IACE,kBAAA;IACA,qBAAA;EAMF;;EAHA;IACE,aAAA;IACA,yBAAA;IACA,eAAA;EAMF;;EAHA;IACE,kBAAA;IACA,WAAA;IACA,OAAA;IACA,MAAA;IACA,WAAA;IACA,YAAA;IACA,iBAAA;EAMF;;EAHA;IACE,iBAAA;IACA,sBAAA;IACA,sBAAA;EAMF;AACF","sourcesContent":[".section {\r\n  width: 90%;\r\n  max-width: 480px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .section {\r\n    max-width: 960px;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .section {\r\n    max-width: 1200px;\r\n  }\r\n}","@import '../../style/extend/section.scss';\r\n\r\n.featured {\r\n  @extend .section;\r\n}\r\n\r\n\r\n\r\n@media (max-width: 767px) {\r\n  .featured {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding-top: 1em;\r\n    row-gap: 1em;\r\n  }\r\n\r\n  .featured--right {\r\n    padding: 0 0 4em;\r\n  }\r\n\r\n  .featured__image {\r\n    aspect-ratio: 3/2;\r\n    object-fit: cover;\r\n  }\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n  .featured {\r\n    position: relative;\r\n    padding: 0 2.5em 10em;\r\n  }\r\n\r\n  .featured--right {\r\n    display: flex;\r\n    justify-content: flex-end;\r\n    margin-top: 1em;\r\n  }\r\n\r\n  .featured__image {\r\n    position: absolute;\r\n    z-index: -1;\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n  }\r\n\r\n  .featured__article {\r\n    background: white;\r\n    width: min(65%, 520px);\r\n    padding: 1.5em 2em 2em;\r\n  }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1814,8 +1814,8 @@ const Header = () => ({
       <div class="header__wrapper">
         <div class="header__body">
           ${_router_prefix__WEBPACK_IMPORTED_MODULE_0__["default"].skip(window.location.pathname) === '/'
-          ? '<img class="header__logo" src="" alt="logo">'
-          : '<a href="/"><img class="header__logo" src="" alt="logo"></a>'}        
+          ? '<img class="header__logo" alt="logo">'
+          : '<a href="/"><img class="header__logo" alt="logo"></a>'}        
           <button class="header__burger"></button>
           <nav class="header__nav">
             <a class="header__nav-link" href="/">Home</a>
@@ -1982,12 +1982,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+// запуск роутера
 window.addEventListener('load', () => {
   const l = window.location;
+  // перенаправляет если войти на '/' вместо '/-prefix-/'
   if (_prefix__WEBPACK_IMPORTED_MODULE_1__["default"].value && l.pathname === '/') l.replace(_prefix__WEBPACK_IMPORTED_MODULE_1__["default"].add(l.href));
   else (0,_router__WEBPACK_IMPORTED_MODULE_0__["default"])(l.pathname);
 })
 
+// кнопки вперёд / назад
 window.addEventListener('popstate', (event) => {
   ;(0,_router__WEBPACK_IMPORTED_MODULE_0__["default"])(event.target.location.pathname);
 })
@@ -2008,6 +2011,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Loader = () => {
+  document.body.style.overflowY = 'hidden';
+
   const elem = document.createElement('div');
   elem.classList.add('loader');
 
@@ -2024,6 +2029,7 @@ const Loader = () => {
     elem,
     remove: function() {
       this.elem.remove();
+      document.body.style.overflowY = '';
     },
   }
 };
@@ -2053,27 +2059,36 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+// рендерит страницу из полученных компонентов
 const asyncPage = async (...sections) => {
+  // вызывает функции очистки прошлой страницы
   _cleanup__WEBPACK_IMPORTED_MODULE_2__["default"].run();
+  // показывает лоадер-модалку
   const loader = (0,_loader__WEBPACK_IMPORTED_MODULE_3__["default"])();
 
   for (let child of sections) {
+    // при ошибке из компонента возвращается null
     child = await child();
 
     if (child) {
       document.body.insertAdjacentHTML('beforeend', child.markup);
+      // прослушка событий, добавление картинок, всё что должно выполняться после рендера
       if (child?.listeners) _listeners__WEBPACK_IMPORTED_MODULE_1__["default"].add(child.listeners);
+      // снятие прослушки событий и всё что выполняется после удаления компонента
       if (child?.clear) _cleanup__WEBPACK_IMPORTED_MODULE_2__["default"].add(child.clear);
     }
     else {
+      // модальная плашка ошибки
       (0,_error__WEBPACK_IMPORTED_MODULE_4__["default"])();
+      // тут listeners ещё не выполнялись, очищает их
       _listeners__WEBPACK_IMPORTED_MODULE_1__["default"].reset();
-      _cleanup__WEBPACK_IMPORTED_MODULE_2__["default"].run();
       break;
     }
   }
 
+  // добавляет publicPath и функции роутера на все ссылки
   (0,_handleLink__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  // навешивает накопившиеся прослушки событий, вставляет картинки итд
   _listeners__WEBPACK_IMPORTED_MODULE_1__["default"].run();
   loader.remove();
 };
@@ -2129,9 +2144,11 @@ const handleLink = () => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
       const pathname = new URL(event.currentTarget.href).pathname;
+      // перенаправляет на нужный роут
       window.history.pushState(null, '', pathname);
       (0,_router__WEBPACK_IMPORTED_MODULE_0__["default"])(pathname);
     })
+    // добавляет publicPath к ссылке
     link.href = _prefix__WEBPACK_IMPORTED_MODULE_1__["default"].add(link.href);
   }
 };
@@ -2181,20 +2198,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+// добавление publicPath ко всем ссылкам при создании страницы
+
 const prefix = {
+  // копия publicPath, без / в конце
   value: '/Ratio__module-4',
 
+  // принимает location.href, добавляет префикс к ссылке
   add: function(url) {
     url = new URL(url);
     url.pathname = this.value + url.pathname;
     return url.toString();
   },
 
+  // принимает location.pathname, возвращает ссылку без префикса
   skip: function(route) {
     return route.startsWith(this.value) ? route.replace(this.value, '') : null;
   },
 };
-
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (prefix);
 
@@ -2217,6 +2238,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const router = (pathname) => {
   document.body.innerHTML = '';
+  // убирает publicPath из роута
   pathname = _prefix__WEBPACK_IMPORTED_MODULE_1__["default"].skip(pathname);
 
   for (let route of _routes__WEBPACK_IMPORTED_MODULE_0__["default"]) {
@@ -2278,6 +2300,7 @@ const routes = [
     title: 'Blog',
   },
   {
+    // роут /artilce/:id
     match: p => /\/article\/\d+$/.test(p),
     render: (pathname) => (0,_page_asyncPage__WEBPACK_IMPORTED_MODULE_0__["default"])(
       _components_header__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -2286,17 +2309,12 @@ const routes = [
   },
   {
     match: p => p === '/about',
-    render: () => (0,_page_asyncPage__WEBPACK_IMPORTED_MODULE_0__["default"])(
-      _components_header__WEBPACK_IMPORTED_MODULE_1__["default"],
-      _components_about__WEBPACK_IMPORTED_MODULE_5__["default"]
-    ),
+    render: () => (0,_page_asyncPage__WEBPACK_IMPORTED_MODULE_0__["default"])(_components_header__WEBPACK_IMPORTED_MODULE_1__["default"], _components_about__WEBPACK_IMPORTED_MODULE_5__["default"]),
     title: 'About',
   },
   {
     match: () => true,
-    render: () => (0,_page_asyncPage__WEBPACK_IMPORTED_MODULE_0__["default"])(
-      _components_page404__WEBPACK_IMPORTED_MODULE_6__["default"],
-    ),
+    render: () => (0,_page_asyncPage__WEBPACK_IMPORTED_MODULE_0__["default"])(_components_page404__WEBPACK_IMPORTED_MODULE_6__["default"]),
     title: 'Page Not Found',
   },
 ];
@@ -2315,6 +2333,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+// возвращает дату формата 'December 2, 2019'
+
 const months = [
   'January', 'February', 'March',
   'April', 'May', 'Juny',
@@ -2553,4 +2573,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.5f9e55c852a90b0ce7eb.js.map
+//# sourceMappingURL=index.35f4c1f82236d5494972.js.map

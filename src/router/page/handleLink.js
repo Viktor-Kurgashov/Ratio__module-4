@@ -6,9 +6,11 @@ const handleLink = () => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
       const pathname = new URL(event.currentTarget.href).pathname;
+      // перенаправляет на нужный роут
       window.history.pushState(null, '', pathname);
       router(pathname);
     })
+    // добавляет publicPath к ссылке
     link.href = prefix.add(link.href);
   }
 };

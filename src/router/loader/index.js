@@ -1,6 +1,8 @@
 import './style.scss';
 
 const Loader = () => {
+  document.body.style.overflowY = 'hidden';
+
   const elem = document.createElement('div');
   elem.classList.add('loader');
 
@@ -17,6 +19,7 @@ const Loader = () => {
     elem,
     remove: function() {
       this.elem.remove();
+      document.body.style.overflowY = '';
     },
   }
 };

@@ -8,8 +8,8 @@ const Header = () => ({
       <div class="header__wrapper">
         <div class="header__body">
           ${prefix.skip(window.location.pathname) === '/'
-          ? '<img class="header__logo" src="" alt="logo">'
-          : '<a href="/"><img class="header__logo" src="" alt="logo"></a>'}        
+          ? '<img class="header__logo" alt="logo">'
+          : '<a href="/"><img class="header__logo" alt="logo"></a>'}        
           <button class="header__burger"></button>
           <nav class="header__nav">
             <a class="header__nav-link" href="/">Home</a>

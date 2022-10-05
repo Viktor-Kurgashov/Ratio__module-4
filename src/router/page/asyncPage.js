@@ -12,6 +12,7 @@ const asyncPage = async (...sections) => {
   const loader = Loader();
 
   for (let child of sections) {
+    // при ошибке из компонента возвращается null
     child = await child();
 
     if (child) {
@@ -26,8 +27,6 @@ const asyncPage = async (...sections) => {
       Error();
       // тут listeners ещё не выполнялись, очищает их
       listeners.reset();
-      // подчищает за уже отрендеренными компонентами
-      cleanup.run();
       break;
     }
   }
